@@ -1719,3 +1719,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   font-size: 25px;
   color: #3391C6;
 }
+
+.logos-iso{
+  display: flex;
+  justify-content: center;
+}
+
+.logos-iso li {
+  display: inline-block;
+  margin: 20px;
+}
