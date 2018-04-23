@@ -1710,3 +1710,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
         padding-top: 10px;
     }
 }
+
+.bold {
+  font-size: 25px;
+  color: #3391C6;
+}
