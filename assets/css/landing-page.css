@@ -1729,3 +1729,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   display: inline-block;
   margin: 20px;
 }
+
+.form-box{
+  float: right;
+  margin-top: 150px;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 50px;
+  width: 400px;
+  height: 450px;
+  display: inline-block;
+  padding: 50px;
+}

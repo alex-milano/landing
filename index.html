@@ -8,6 +8,7 @@
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
         <meta name="viewport" content="width=device-width" />
 
+        <!--     Stylesheets     -->
         <link href="assets/css/bootstrap.css" rel="stylesheet" />
         <link href="assets/css/landing-page.css" rel="stylesheet"/>
 
@@ -72,9 +73,31 @@
                 <div class= "container">
                     <div class="row">
                         <div class="col-md-5 hidden-xs">
-                            <!--<div class="parallax-image">
-                                <img class="car" src="assets/img/template/car.png" style="margin-top: 20px"/>
-                            </div>--> 
+                        <div class="form-box">
+                        <form action="sendemail.php" method="post">
+                          <div class="form-group">
+                            <label for="nombres">Nombre y Apellido:</label>
+                            <input type="text" class="form-control" id="nombre"
+                                   placeholder="Introduce tu nombre y apellido">
+                          </div>
+                          <div class="form-group">
+                            <label for="empresa">Empresa:</label>
+                            <input type="text" class="form-control" id="empresa"
+                                   placeholder="Introduce el nombre de tu Empresa">
+                          </div>
+                          <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email"
+                                   placeholder="Introduce tu email">
+                          </div>
+                          <div class="form-group">
+                            <label for="telefono">Telefono:</label>
+                            <input type="number" class="form-control" id="telefono" 
+                                   placeholder="Introduce tu telefono">
+                          </div>
+                          <button type="submit" value="enviar" class="btn btn-default">Enviar</button>
+                        </form>
+                            </div>
                         </div>
                         <div class="col-md-6 col-md-offset-1">
                             <div class="description">
